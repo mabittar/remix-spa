@@ -4,7 +4,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+} from "@remix-run/react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -12,6 +12,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <Meta />
         <Links />
       </head>
